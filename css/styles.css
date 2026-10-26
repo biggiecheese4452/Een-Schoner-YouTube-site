@@ -1,0 +1,175 @@
+
+body {
+  background-color: #fffefe;  /* i didnt liekt the backrgound with the tekst to be fully white so i made it slightly off white */
+  padding: 20px 100px 20px 20px; 
+  margin: 0;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+  position: relative;
+   cursor: url('../images/youtube-cursors.png') 0 0, auto; /*this the custom cursor i made*/
+}
+a, a img {
+  cursor: url('../images/youtube-cursors.png') 0 0, pointer;
+}
+h1 {
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.header-img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  max-width: 200px;
+  height: auto;
+  margin: 30px 20px 80px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.header-img:hover {
+  transform: scale(1.1);
+}
+.nav-img {
+  opacity: 0.5;
+  width: 150px;
+  max-width: 150px;
+  margin: 30px 150px 80px;
+}
+.nav-img:hover {
+  opacity: 1;
+}
+.kleurbalk {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 600vh;
+  width: 200px;
+  z-index: 20;
+  object-fit: fill;
+}
+.inleiding {
+  display: block;
+  margin-left: 60px;
+  text-align: left;
+  width: 200px;
+  height: auto;
+  transition: transform 0.3s ease;
+  transform-origin: left center;
+}
+.kopjes {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 60px;
+  text-align: left;
+  width: 500px;
+  height: auto;
+  transition: transform 0.3s ease;
+  transform-origin: left center;
+}
+.kopjes2 { /*this was for the header about ai, i made it samller because it was too big and the other headers were smaller*/
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 60px;
+  text-align: left;
+  width: 300px;
+  height: auto;
+  transition: transform 0.3s ease;
+  transform-origin: left center;
+}
+.kopjes3 { /*same as the one before but this was for the header about 50-50, i made it smaller because it was too big and the other headers were smaller*/
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 60px;
+  text-align: left;
+  width: 400px;
+  height: auto;
+  transition: transform 0.3s ease;
+  transform-origin: left center;
+}
+.kopjes:hover {
+  transform: scale(1.05);
+}
+.kopjes2:hover {
+  transform: scale(1.05);
+}.kopjes3:hover {
+  transform: scale(1.05);
+}
+.inleiding:hover {
+  transform: scale(1.05);
+}
+
+.general-tekst {
+  margin-left: 60px;
+  line-height: 1.2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 20px;
+  word-spacing: 0.4em;
+  transition: transform 0.3s ease;
+  transform-origin: left center;
+}
+.general-tekst:hover {
+  transform: scale(1.01);
+}
+.sterren {
+    display: block;
+    margin-left: 60px;
+    width: 100px;
+    height: auto;
+}
+.thumbnail {
+  display: block;
+  margin-left: 60px;
+  text-align: left;
+  width: 400px;
+  height: auto;
+  transition: transform 0.3s ease;
+  transform-origin: left center;
+  
+}
+.thumbnail:hover {
+  transform: scale(1.2);
+}
+.logo.fade {
+  opacity: 0.5;
+}
+
+.logo.fade:hover {
+  opacity: 1;
+}
+.nav-img.current {
+  opacity: 1;
+  cursor: default;
+}
+.arrow-link {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.arrow {
+   display: block;
+  margin-left: 1000px;
+  text-align: right;
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s ease;
+  transform-origin: left center;
+  opacity: 0.5;
+}
+.arrow:hover{
+    transform: scale(1.1);
+     opacity: 1;
+    
+}
+.extra-info-bij-sterren {
+  display: block;
+  margin-left: 60px;
+  text-align: left;
+  width: 500px;
+  height: auto;
+  transition: transform 0.3s ease;
+  transform-origin: left center;
+}
